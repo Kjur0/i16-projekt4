@@ -1,0 +1,66 @@
+body {
+    background-color: darkgray;
+    font-family: Verdana;
+    font-size: small;
+}
+
+h1 {
+    color: slateblue;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+#str {
+    width: 250px;
+    height: 1rem;
+    padding: .5rem .5rem;
+    border: 2.5px solid darkblue;
+    background-color: cornflowerblue;
+    color: indigo;
+}
+
+#str:focus {
+    border: 2.5px solid blue;
+}
+
+input {
+    width: 100px;
+    outline: none;
+    border: 2.5px solid darkblue;
+    font-size: large;
+    border-radius: 0.3cm;
+}
+
+#app {
+    color: green;
+    background-color: yellowgreen;
+}
+
+#res {
+    color: darkred;
+    background-color: orangered;
+}
+
+#butts {
+    display: grid;
+    place-items: center;
+}
+
+button {
+    color: whitesmoke;
+    font-family: Impact;
+    font-size: xx-large;
+    background-color: black;
+    border: none;
+    border-radius: 0.25cm;
+}
+
+tiny {
+    color: black;
+    font-size: xx-small;
+    opacity: 5%;
+}
