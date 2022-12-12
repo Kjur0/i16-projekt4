@@ -14,7 +14,8 @@ if (document.cookie !== []) {
     })
 }
 
-app.onclick = () => {
+app.onclick = (event) => {
+    event.preventDefault()
     let str = document.getElementById("str"),
         bisc = document.cookie.split(',')
 
